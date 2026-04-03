@@ -27,8 +27,10 @@ The Aiotize Brand System is the single source of truth for every visual and verb
 Brand System
 ├─ Principles          → docs/brand-principles.md
 ├─ Logo usage          → docs/logo-usage.md
+├─ Iconography         → docs/iconography.md
 ├─ Color               → docs/color.md
 ├─ Typography          → docs/typography.md
+├─ Spacing             → docs/spacing.md
 ├─ Motion              → docs/motion.md
 ├─ Voice & tone        → docs/voice-and-tone.md
 ├─ Design tokens       → tokens/
