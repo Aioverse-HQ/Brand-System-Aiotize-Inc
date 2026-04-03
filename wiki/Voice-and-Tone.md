@@ -33,7 +33,7 @@ Aiotize's voice is built on four qualities:
 ## ✍️ Writing Rules
 
 ### 1. Lead with the benefit or the action
-- ✅ "Analyse your data in seconds."
+- ✅ "Analyze your data in seconds."
 - ❌ "Aiotize Insight Engine v2 is now available."
 
 ### 2. Use active voice
