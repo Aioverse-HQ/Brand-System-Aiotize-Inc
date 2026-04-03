@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aiotize — Brand System Example</title>
+  <!-- In a real project, import the built token CSS:
+       <link rel="stylesheet" href="node_modules/@aiotize/brand-tokens/build/css/tokens.css" />
+  -->
+  <style>
+    /* ── Minimal inline token stubs for standalone preview ── */
+    :root {
+      --aiotize-color-brand-navy:   #0D1B2A;
+      --aiotize-color-brand-blue:   #1A6BFF;
+      --aiotize-color-brand-cyan:   #00D4FF;
+      --aiotize-color-brand-white:  #FFFFFF;
+      --aiotize-color-secondary-lightGray: #F5F7FA;
+      --aiotize-color-secondary-midGray:   #CBD5E0;
+      --aiotize-color-secondary-slate:     #4A5568;
+
+      --aiotize-typography-fontFamily-sans: Inter, system-ui, -apple-system, sans-serif;
+
+      --aiotize-spacing-4:  1rem;
+      --aiotize-spacing-6:  1.5rem;
+      --aiotize-spacing-8:  2rem;
+      --aiotize-spacing-12: 3rem;
+      --aiotize-spacing-16: 4rem;
+
+      --aiotize-borderRadius-md: 0.5rem;
+      --aiotize-borderRadius-lg: 0.75rem;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--aiotize-typography-fontFamily-sans);
+      background: var(--aiotize-color-brand-white);
+      color: var(--aiotize-color-brand-navy);
+      line-height: 1.6;
+    }
+
+    /* Nav */
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: var(--aiotize-spacing-4) var(--aiotize-spacing-8);
+      border-bottom: 1px solid var(--aiotize-color-secondary-midGray);
+    }
+    .nav-logo { font-weight: 700; font-size: 1.25rem; letter-spacing: -0.01em; }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(135deg, var(--aiotize-color-brand-blue) 0%, var(--aiotize-color-brand-cyan) 100%);
+      color: var(--aiotize-color-brand-white);
+      padding: var(--aiotize-spacing-16) var(--aiotize-spacing-8);
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      margin-bottom: var(--aiotize-spacing-4);
+    }
+    .hero p {
+      font-size: 1.125rem;
+      opacity: 0.9;
+      max-width: 560px;
+      margin: 0 auto var(--aiotize-spacing-8);
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: var(--aiotize-borderRadius-md);
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: background 200ms cubic-bezier(0.4,0,0.2,1), color 200ms cubic-bezier(0.4,0,0.2,1);
+    }
+    .btn-primary {
+      background: var(--aiotize-color-brand-blue);
+      color: var(--aiotize-color-brand-white);
+    }
+    .btn-primary:hover { background: #1558D6; }
+    .btn-secondary {
+      background: transparent;
+      color: var(--aiotize-color-brand-white);
+      border-color: var(--aiotize-color-brand-white);
+      margin-left: var(--aiotize-spacing-4);
+    }
+    .btn-secondary:hover { background: rgba(255,255,255,0.1); }
+
+    /* Features */
+    .features {
+      padding: var(--aiotize-spacing-16) var(--aiotize-spacing-8);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: var(--aiotize-spacing-6);
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .card {
+      background: var(--aiotize-color-secondary-lightGray);
+      border-radius: var(--aiotize-borderRadius-lg);
+      padding: var(--aiotize-spacing-6);
+    }
+    .card h3 { font-size: 1.25rem; font-weight: 600; margin-bottom: var(--aiotize-spacing-4); }
+    .card p  { color: var(--aiotize-color-secondary-slate); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: var(--aiotize-spacing-8);
+      font-size: 0.875rem;
+      color: var(--aiotize-color-secondary-slate);
+      border-top: 1px solid var(--aiotize-color-secondary-midGray);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { transition-duration: 0.01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <span class="nav-logo">Aiotize</span>
+    <div>
+      <a href="#features" style="color: inherit; text-decoration: none; margin-right: 1.5rem;">Features</a>
+      <a href="#" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.875rem;">Get started</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Intelligence, by design.</h1>
+    <p>Aiotize turns your data into decisions — automatically. Built on a consistent, accessible brand system.</p>
+    <a href="#" class="btn btn-primary">Get started free</a>
+    <a href="#features" class="btn btn-secondary">See how it works</a>
+  </section>
+
+  <section id="features" class="features">
+    <div class="card">
+      <h3>Design Tokens</h3>
+      <p>A single source of truth for colors, typography, spacing, and more — consumed by web and mobile alike.</p>
+    </div>
+    <div class="card">
+      <h3>Brand Assets</h3>
+      <p>Logos, icons, and illustrations in SVG and PNG, organized and ready to use in any context.</p>
+    </div>
+    <div class="card">
+      <h3>Guidelines</h3>
+      <p>Clear rules for logo usage, color combinations, typography hierarchy, motion, and voice and tone.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 Aiotize Inc — Brand System Example
+  </footer>
+</body>
+</html>

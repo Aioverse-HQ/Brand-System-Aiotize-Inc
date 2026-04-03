@@ -1,0 +1,42 @@
+{
+  "name": "@aiotize/brand-web",
+  "version": "1.0.0",
+  "description": "Aiotize Inc web implementation package — CSS variables, utilities, and React components",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./css": "./dist/styles/brand.css"
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "echo 'Build step: compile TypeScript and bundle CSS (wire up your preferred bundler here)'",
+    "lint": "echo 'Lint step: run ESLint and stylelint (configure as needed)'"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": { "optional": true },
+    "react-dom": { "optional": true }
+  },
+  "devDependencies": {
+    "@aiotize/brand-tokens": "^1.0.0"
+  },
+  "keywords": [
+    "brand",
+    "design-system",
+    "aiotize",
+    "react",
+    "css"
+  ],
+  "license": "Apache-2.0"
+}

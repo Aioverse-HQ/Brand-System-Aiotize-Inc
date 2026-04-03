@@ -1,0 +1,43 @@
+{
+  "$metadata": {
+    "tokenSetOrder": ["global/color", "global/typography", "global/spacing", "themes/brand-alt"]
+  },
+  "color": {
+    "background": {
+      "default":  { "$value": "{color.brand.navy}",          "$type": "color" },
+      "subtle":   { "$value": "#1A2540",                      "$type": "color", "$description": "Slightly lighter navy for card surfaces in dark theme" },
+      "emphasis": { "$value": "{color.brand.blue}",           "$type": "color" }
+    },
+    "text": {
+      "default":   { "$value": "{color.brand.white}",         "$type": "color" },
+      "secondary": { "$value": "{color.secondary.midGray}",   "$type": "color" },
+      "disabled":  { "$value": "{color.secondary.darkGray}",  "$type": "color" },
+      "inverse":   { "$value": "{color.brand.navy}",          "$type": "color" },
+      "link":      { "$value": "{color.brand.cyan}",          "$type": "color" }
+    },
+    "border": {
+      "default":  { "$value": "#2D3E55",                       "$type": "color", "$description": "Subtle border on dark backgrounds" },
+      "emphasis": { "$value": "{color.secondary.slate}",       "$type": "color" },
+      "brand":    { "$value": "{color.brand.cyan}",            "$type": "color" }
+    },
+    "action": {
+      "primary": {
+        "background":        { "$value": "{color.brand.cyan}",  "$type": "color" },
+        "backgroundHover":   { "$value": "#00B8DC",              "$type": "color", "$description": "Slightly darkened cyan for hover" },
+        "backgroundPressed": { "$value": "#0099B8",              "$type": "color" },
+        "text":              { "$value": "{color.brand.navy}",  "$type": "color" }
+      },
+      "secondary": {
+        "background":        { "$value": "transparent",          "$type": "color" },
+        "backgroundHover":   { "$value": "rgba(0,212,255,0.1)",  "$type": "color" },
+        "text":              { "$value": "{color.brand.cyan}",  "$type": "color" },
+        "border":            { "$value": "{color.brand.cyan}",  "$type": "color" }
+      },
+      "destructive": {
+        "background":      { "$value": "{color.feedback.error}", "$type": "color" },
+        "backgroundHover": { "$value": "#C53030",                "$type": "color" },
+        "text":            { "$value": "{color.brand.white}",   "$type": "color" }
+      }
+    }
+  }
+}
