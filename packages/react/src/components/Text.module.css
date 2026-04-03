@@ -1,0 +1,122 @@
+.text {
+  margin: 0;
+  font-family: inherit;
+}
+
+/* Variants */
+.heading1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+
+.heading2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+
+.heading3 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1.375;
+}
+
+.heading4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.375;
+}
+
+.heading5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.heading6 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.bodylg {
+  font-size: 1.125rem;
+  line-height: 1.625;
+}
+
+.body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.bodysm {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.caption {
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+/* Colors */
+.colorPrimary {
+  color: var(--aiotize-color-text-primary, #18181B);
+}
+
+.colorSecondary {
+  color: var(--aiotize-color-text-secondary, #52525B);
+}
+
+.colorMuted {
+  color: var(--aiotize-color-text-muted, #71717A);
+}
+
+.colorBrand {
+  color: var(--aiotize-color-brand-primary, #6366F1);
+}
+
+.colorSuccess {
+  color: var(--aiotize-color-success, #10B981);
+}
+
+.colorWarning {
+  color: var(--aiotize-color-warning, #F59E0B);
+}
+
+.colorError {
+  color: var(--aiotize-color-error, #EF4444);
+}
+
+.colorInfo {
+  color: var(--aiotize-color-info, #3B82F6);
+}
+
+/* Alignment */
+.alignLeft {
+  text-align: left;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+/* Truncate */
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

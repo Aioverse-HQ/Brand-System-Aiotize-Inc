@@ -1,0 +1,81 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Introduction" />
+
+# Aiotize Brand System
+
+Welcome to the Aiotize Brand System documentation. This comprehensive design system provides design tokens, React components, icons, and guidelines for building consistent Aiotize products.
+
+## Getting Started
+
+### Installation
+
+```bash
+# Install all packages
+pnpm add @aiotize/react @aiotize/tokens @aiotize/themes @aiotize/icons @aiotize/css
+```
+
+### Basic Usage
+
+```tsx
+import { Button, Text, Stack } from '@aiotize/react';
+import { ThemeProvider } from '@aiotize/themes';
+import '@aiotize/themes/dist/light.css';
+
+function App() {
+  return (
+    <ThemeProvider defaultTheme="light">
+      <Stack gap="md">
+        <Text variant="heading-1">Welcome to Aiotize</Text>
+        <Button variant="primary">Get Started</Button>
+      </Stack>
+    </ThemeProvider>
+  );
+}
+```
+
+## Packages
+
+| Package | Description |
+|---------|-------------|
+| `@aiotize/tokens` | Design tokens (colors, typography, spacing) |
+| `@aiotize/react` | React component library |
+| `@aiotize/icons` | SVG icon library |
+| `@aiotize/themes` | Theme system and ThemeProvider |
+| `@aiotize/css` | CSS utilities and reset |
+| `@aiotize/fonts` | Typography assets |
+
+## Design Principles
+
+### 1. Accessibility First
+All components are built with WCAG 2.1 AA compliance, including proper color contrast, keyboard navigation, and screen reader support.
+
+### 2. Token-Driven Design
+Visual decisions are centralized in design tokens, ensuring consistency across all components and products.
+
+### 3. Composable Architecture
+Components are designed to be composed together, enabling complex UIs from simple building blocks.
+
+### 4. Developer Experience
+TypeScript-first with full type safety, comprehensive documentation, and intuitive APIs.
+
+## Theming
+
+The brand system supports light and dark themes out of the box:
+
+```tsx
+import { ThemeProvider, useTheme } from '@aiotize/themes';
+
+function ThemeToggle() {
+  const { theme, toggleTheme } = useTheme();
+  return (
+    <Button onClick={toggleTheme}>
+      Current: {theme}
+    </Button>
+  );
+}
+```
+
+## Contributing
+
+See the Contributing guide for information on how to contribute to the brand system.

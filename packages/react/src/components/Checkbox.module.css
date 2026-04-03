@@ -1,0 +1,77 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.checkboxRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.checkbox {
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid var(--aiotize-color-border-strong, #D4D4D8);
+  border-radius: 0.25rem;
+  background-color: var(--aiotize-color-background, #FFFFFF);
+  cursor: pointer;
+  appearance: none;
+  transition: all 150ms ease-in-out;
+  flex-shrink: 0;
+}
+
+.checkbox:hover:not(:disabled) {
+  border-color: var(--aiotize-color-brand-primary, #6366F1);
+}
+
+.checkbox:focus-visible {
+  outline: 2px solid var(--aiotize-color-brand-primary, #6366F1);
+  outline-offset: 2px;
+}
+
+.checkbox:checked {
+  background-color: var(--aiotize-color-brand-primary, #6366F1);
+  border-color: var(--aiotize-color-brand-primary, #6366F1);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+  background-size: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.checkbox:indeterminate {
+  background-color: var(--aiotize-color-brand-primary, #6366F1);
+  border-color: var(--aiotize-color-brand-primary, #6366F1);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3C/svg%3E");
+  background-size: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.checkbox.error {
+  border-color: var(--aiotize-color-error, #EF4444);
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--aiotize-color-text-primary, #18181B);
+  cursor: pointer;
+  user-select: none;
+}
+
+.description {
+  font-size: 0.75rem;
+  color: var(--aiotize-color-text-muted, #71717A);
+  margin-left: 1.5rem;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.disabled .checkbox,
+.disabled .label {
+  cursor: not-allowed;
+}

@@ -1,0 +1,57 @@
+.box {
+  box-sizing: border-box;
+}
+
+/* Padding */
+.pNone { padding: 0; }
+.pXs { padding: 0.25rem; }
+.pSm { padding: 0.5rem; }
+.pMd { padding: 1rem; }
+.pLg { padding: 1.5rem; }
+.pXl { padding: 2rem; }
+
+.pxNone { padding-left: 0; padding-right: 0; }
+.pxXs { padding-left: 0.25rem; padding-right: 0.25rem; }
+.pxSm { padding-left: 0.5rem; padding-right: 0.5rem; }
+.pxMd { padding-left: 1rem; padding-right: 1rem; }
+.pxLg { padding-left: 1.5rem; padding-right: 1.5rem; }
+.pxXl { padding-left: 2rem; padding-right: 2rem; }
+
+.pyNone { padding-top: 0; padding-bottom: 0; }
+.pyXs { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+.pySm { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.pyMd { padding-top: 1rem; padding-bottom: 1rem; }
+.pyLg { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+.pyXl { padding-top: 2rem; padding-bottom: 2rem; }
+
+/* Background */
+.bgDefault {
+  background-color: var(--aiotize-color-background, #FFFFFF);
+}
+
+.bgMuted {
+  background-color: var(--aiotize-color-muted, #F4F4F5);
+}
+
+.bgForeground {
+  background-color: var(--aiotize-color-foreground, #FAFAFA);
+}
+
+/* Border */
+.border {
+  border: 1px solid var(--aiotize-color-border, #E4E4E7);
+}
+
+/* Border Radius */
+.roundedNone { border-radius: 0; }
+.roundedSm { border-radius: 0.125rem; }
+.roundedMd { border-radius: 0.375rem; }
+.roundedLg { border-radius: 0.5rem; }
+.roundedXl { border-radius: 0.75rem; }
+.roundedFull { border-radius: 9999px; }
+
+/* Shadow */
+.shadowNone { box-shadow: none; }
+.shadowSm { box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); }
+.shadowMd { box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); }
+.shadowLg { box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); }
