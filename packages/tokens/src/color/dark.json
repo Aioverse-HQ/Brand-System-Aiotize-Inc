@@ -1,0 +1,46 @@
+{
+  "color": {
+    "dark": {
+      "surface": {
+        "background": {
+          "value": "#09090B",
+          "description": "Dark mode page background"
+        },
+        "foreground": {
+          "value": "#18181B",
+          "description": "Dark mode card surfaces"
+        },
+        "muted": {
+          "value": "#27272A",
+          "description": "Dark mode muted background"
+        },
+        "border": {
+          "value": "#3F3F46",
+          "description": "Dark mode border"
+        },
+        "border-strong": {
+          "value": "#52525B",
+          "description": "Dark mode strong border"
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "#FAFAFA",
+          "description": "Dark mode primary text"
+        },
+        "secondary": {
+          "value": "#A1A1AA",
+          "description": "Dark mode secondary text"
+        },
+        "muted": {
+          "value": "#71717A",
+          "description": "Dark mode muted text"
+        },
+        "inverse": {
+          "value": "#18181B",
+          "description": "Dark mode inverse text"
+        }
+      }
+    }
+  }
+}

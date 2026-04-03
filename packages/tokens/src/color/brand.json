@@ -1,0 +1,38 @@
+{
+  "color": {
+    "brand": {
+      "primary": {
+        "value": "#6366F1",
+        "description": "Primary brand color - Indigo"
+      },
+      "primary-hover": {
+        "value": "#4F46E5",
+        "description": "Primary brand hover state"
+      },
+      "primary-active": {
+        "value": "#4338CA",
+        "description": "Primary brand active state"
+      },
+      "secondary": {
+        "value": "#8B5CF6",
+        "description": "Secondary brand color - Violet"
+      },
+      "secondary-hover": {
+        "value": "#7C3AED",
+        "description": "Secondary brand hover state"
+      },
+      "secondary-active": {
+        "value": "#6D28D9",
+        "description": "Secondary brand active state"
+      },
+      "accent": {
+        "value": "#06B6D4",
+        "description": "Accent color - Cyan"
+      },
+      "accent-hover": {
+        "value": "#0891B2",
+        "description": "Accent hover state"
+      }
+    }
+  }
+}

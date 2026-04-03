@@ -1,0 +1,23 @@
+{
+  "motion": {
+    "duration": {
+      "instant": { "value": "0ms" },
+      "fast": { "value": "100ms" },
+      "normal": { "value": "200ms" },
+      "slow": { "value": "300ms" },
+      "slower": { "value": "500ms" },
+      "slowest": { "value": "700ms" }
+    },
+    "easing": {
+      "linear": { "value": "linear" },
+      "ease": { "value": "ease" },
+      "ease-in": { "value": "cubic-bezier(0.4, 0, 1, 1)" },
+      "ease-out": { "value": "cubic-bezier(0, 0, 0.2, 1)" },
+      "ease-in-out": { "value": "cubic-bezier(0.4, 0, 0.2, 1)" },
+      "spring": {
+        "value": "cubic-bezier(0.175, 0.885, 0.32, 1.275)",
+        "description": "Bouncy spring effect"
+      }
+    }
+  }
+}

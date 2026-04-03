@@ -1,0 +1,30 @@
+{
+  "name": "@aiotize/fonts",
+  "version": "0.1.0",
+  "description": "Typography assets and font declarations for Aiotize brand system",
+  "license": "Apache-2.0",
+  "author": "Aiotize Inc",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./css": "./dist/fonts.css",
+    "./inter": "./dist/inter.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js && tsc",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

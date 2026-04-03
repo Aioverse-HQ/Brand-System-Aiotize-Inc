@@ -1,0 +1,115 @@
+{
+  "color": {
+    "semantic": {
+      "success": {
+        "value": "#10B981",
+        "description": "Success state - Green"
+      },
+      "success-light": {
+        "value": "#D1FAE5",
+        "description": "Success background"
+      },
+      "success-dark": {
+        "value": "#047857",
+        "description": "Success dark variant"
+      },
+      "warning": {
+        "value": "#F59E0B",
+        "description": "Warning state - Amber"
+      },
+      "warning-light": {
+        "value": "#FEF3C7",
+        "description": "Warning background"
+      },
+      "warning-dark": {
+        "value": "#D97706",
+        "description": "Warning dark variant"
+      },
+      "error": {
+        "value": "#EF4444",
+        "description": "Error state - Red"
+      },
+      "error-light": {
+        "value": "#FEE2E2",
+        "description": "Error background"
+      },
+      "error-dark": {
+        "value": "#DC2626",
+        "description": "Error dark variant"
+      },
+      "info": {
+        "value": "#3B82F6",
+        "description": "Info state - Blue"
+      },
+      "info-light": {
+        "value": "#DBEAFE",
+        "description": "Info background"
+      },
+      "info-dark": {
+        "value": "#2563EB",
+        "description": "Info dark variant"
+      }
+    },
+    "neutral": {
+      "50": { "value": "#FAFAFA" },
+      "100": { "value": "#F4F4F5" },
+      "200": { "value": "#E4E4E7" },
+      "300": { "value": "#D4D4D8" },
+      "400": { "value": "#A1A1AA" },
+      "500": { "value": "#71717A" },
+      "600": { "value": "#52525B" },
+      "700": { "value": "#3F3F46" },
+      "800": { "value": "#27272A" },
+      "900": { "value": "#18181B" },
+      "950": { "value": "#09090B" }
+    },
+    "surface": {
+      "background": {
+        "value": "#FFFFFF",
+        "description": "Page background"
+      },
+      "foreground": {
+        "value": "#FAFAFA",
+        "description": "Card/elevated surfaces"
+      },
+      "muted": {
+        "value": "#F4F4F5",
+        "description": "Muted background"
+      },
+      "border": {
+        "value": "#E4E4E7",
+        "description": "Default border color"
+      },
+      "border-strong": {
+        "value": "#D4D4D8",
+        "description": "Strong border color"
+      }
+    },
+    "text": {
+      "primary": {
+        "value": "#18181B",
+        "description": "Primary text color"
+      },
+      "secondary": {
+        "value": "#52525B",
+        "description": "Secondary text color"
+      },
+      "muted": {
+        "value": "#71717A",
+        "description": "Muted/disabled text"
+      },
+      "inverse": {
+        "value": "#FFFFFF",
+        "description": "Text on dark backgrounds"
+      },
+      "link": {
+        "value": "#6366F1",
+        "description": "Link text color"
+      },
+      "link-hover": {
+        "value": "#4F46E5",
+        "description": "Link hover color"
+      }
+    }
+  }
+}

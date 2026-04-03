@@ -1,0 +1,10 @@
+{
+  "breakpoint": {
+    "xs": { "value": "320px", "description": "Extra small devices" },
+    "sm": { "value": "640px", "description": "Small devices" },
+    "md": { "value": "768px", "description": "Medium devices" },
+    "lg": { "value": "1024px", "description": "Large devices" },
+    "xl": { "value": "1280px", "description": "Extra large devices" },
+    "2xl": { "value": "1536px", "description": "2XL devices" }
+  }
+}

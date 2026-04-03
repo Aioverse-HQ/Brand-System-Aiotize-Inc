@@ -1,0 +1,26 @@
+{
+  "name": "@aiotize/css",
+  "version": "0.1.0",
+  "description": "CSS utility layer for Aiotize brand system",
+  "license": "Apache-2.0",
+  "author": "Aiotize Inc",
+  "type": "module",
+  "main": "./dist/aiotize.css",
+  "exports": {
+    ".": "./dist/aiotize.css",
+    "./reset": "./dist/reset.css",
+    "./typography": "./dist/typography.css",
+    "./utilities": "./dist/utilities.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "cssnano": "^6.0.0",
+    "postcss": "^8.4.0"
+  }
+}

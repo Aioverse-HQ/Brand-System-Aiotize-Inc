@@ -1,0 +1,44 @@
+{
+  "name": "@aiotize/brand-system",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Aiotize Inc Branding System - Design tokens, components, and documentation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aioverse-HQ/Brand-System-Aiotize-Inc.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Aiotize Inc",
+  "type": "module",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "lint:fix": "eslint --fix .",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky || true"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@eslint/js": "^9.0.0",
+    "@types/node": "^20.11.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.34.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^9.0.0",
+    "prettier": "^3.2.0",
+    "turbo": "^2.0.0",
+    "typescript": "^5.4.0",
+    "typescript-eslint": "^7.0.0"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@aiotize/tokens",
+  "version": "0.1.0",
+  "description": "Design tokens for Aiotize brand system",
+  "license": "Apache-2.0",
+  "author": "Aiotize Inc",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./css": "./dist/tokens.css",
+    "./scss": "./dist/tokens.scss",
+    "./json": "./dist/tokens.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "style-dictionary build && tsc",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.0.0",
+    "typescript": "^5.4.0"
+  }
+}

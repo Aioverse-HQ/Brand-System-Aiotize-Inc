@@ -1,0 +1,36 @@
+{
+  "name": "@aiotize/themes",
+  "version": "0.1.0",
+  "description": "Theme configurations and ThemeProvider for Aiotize brand system",
+  "license": "Apache-2.0",
+  "author": "Aiotize Inc",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./light": "./dist/light.css",
+    "./dark": "./dist/dark.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts && node scripts/build-css.js",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  }
+}
