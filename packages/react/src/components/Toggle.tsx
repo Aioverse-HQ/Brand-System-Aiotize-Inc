@@ -13,7 +13,8 @@ export interface ToggleProps extends Omit<React.InputHTMLAttributes<HTMLInputEle
 
 export const Toggle = React.forwardRef<HTMLInputElement, ToggleProps>(
   ({ size = 'md', label, disabled, className, id, ...props }, ref) => {
-    const toggleId = id || `toggle-${Math.random().toString(36).substr(2, 9)}`;
+    const reactId = React.useId();
+    const toggleId = id || reactId;
 
     return (
       <div className={cn(styles.wrapper, disabled && styles.disabled, className)}>

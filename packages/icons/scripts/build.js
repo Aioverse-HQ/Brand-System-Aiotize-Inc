@@ -17,6 +17,7 @@ if (!existsSync(outputDir)) {
 }
 
 // SVGO configuration
+// Note: We remove fill/stroke attributes so they can be controlled via the `color` prop in the React component
 const svgoConfig = {
   multipass: true,
   plugins: [

@@ -13,7 +13,11 @@ if (!existsSync(distDir)) {
 }
 
 // Inter font CSS using Google Fonts CDN
+// Note: Using @import is convenient for development but blocks rendering.
+// For production, use <link> elements in HTML <head> instead for better performance.
+// See the preloadLinks export in src/index.ts for optimal loading.
 const interCSS = `/* Inter Font Family - Google Fonts */
+/* For production, use <link> tags instead of @import for better performance */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 `;
 
