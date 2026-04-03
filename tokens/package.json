@@ -1,0 +1,31 @@
+{
+  "name": "@aiotize/brand-tokens",
+  "version": "1.0.0",
+  "description": "Aiotize Inc design tokens — colors, typography, spacing, and more",
+  "main": "build/js/tokens.cjs.js",
+  "module": "build/js/tokens.esm.js",
+  "exports": {
+    ".": {
+      "import": "./build/js/tokens.esm.js",
+      "require": "./build/js/tokens.cjs.js"
+    },
+    "./css": "./build/css/tokens.css",
+    "./json": "./build/json/tokens.json"
+  },
+  "files": [
+    "build/"
+  ],
+  "scripts": {
+    "build": "style-dictionary build --config style-dictionary.config.json",
+    "lint": "node scripts/lint-tokens.js"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.3.0"
+  },
+  "keywords": [
+    "design-tokens",
+    "brand",
+    "aiotize"
+  ],
+  "license": "Apache-2.0"
+}

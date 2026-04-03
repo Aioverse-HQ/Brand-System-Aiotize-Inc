@@ -1,0 +1,70 @@
+{
+  "color": {
+    "brand": {
+      "navy": {
+        "$value": "#0D1B2A",
+        "$type": "color",
+        "$description": "Primary brand dark color — backgrounds, headlines, high-emphasis text"
+      },
+      "blue": {
+        "$value": "#1A6BFF",
+        "$type": "color",
+        "$description": "Primary brand action color — CTAs, links, interactive elements"
+      },
+      "cyan": {
+        "$value": "#00D4FF",
+        "$type": "color",
+        "$description": "Brand accent — data highlights, gradient endpoints"
+      },
+      "white": {
+        "$value": "#FFFFFF",
+        "$type": "color",
+        "$description": "Pure white — backgrounds, reversed text"
+      }
+    },
+    "secondary": {
+      "slate": {
+        "$value": "#4A5568",
+        "$type": "color",
+        "$description": "Body text on light backgrounds"
+      },
+      "lightGray": {
+        "$value": "#F5F7FA",
+        "$type": "color",
+        "$description": "Page backgrounds, card surfaces"
+      },
+      "midGray": {
+        "$value": "#CBD5E0",
+        "$type": "color",
+        "$description": "Borders, dividers, disabled states"
+      },
+      "darkGray": {
+        "$value": "#2D3748",
+        "$type": "color",
+        "$description": "Secondary text, labels"
+      }
+    },
+    "feedback": {
+      "success": {
+        "$value": "#38A169",
+        "$type": "color",
+        "$description": "Confirmation and positive states"
+      },
+      "warning": {
+        "$value": "#DD6B20",
+        "$type": "color",
+        "$description": "Caution states"
+      },
+      "error": {
+        "$value": "#E53E3E",
+        "$type": "color",
+        "$description": "Errors and destructive actions"
+      },
+      "info": {
+        "$value": "#1A6BFF",
+        "$type": "color",
+        "$description": "Informational messages — maps to brand.blue"
+      }
+    }
+  }
+}

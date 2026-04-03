@@ -1,0 +1,47 @@
+{
+  "typography": {
+    "fontFamily": {
+      "sans": {
+        "$value": "Inter, system-ui, -apple-system, sans-serif",
+        "$type": "fontFamily",
+        "$description": "Primary sans-serif typeface for headings and body text"
+      },
+      "mono": {
+        "$value": "\"JetBrains Mono\", \"Courier New\", Courier, monospace",
+        "$type": "fontFamily",
+        "$description": "Monospace typeface for code and technical content"
+      }
+    },
+    "fontWeight": {
+      "regular": { "$value": 400, "$type": "fontWeight" },
+      "medium":  { "$value": 500, "$type": "fontWeight" },
+      "semibold": { "$value": 600, "$type": "fontWeight" },
+      "bold":    { "$value": 700, "$type": "fontWeight" },
+      "extrabold": { "$value": 800, "$type": "fontWeight" }
+    },
+    "fontSize": {
+      "xs":  { "$value": "0.75rem",   "$type": "dimension", "$description": "12px — legal, footnotes" },
+      "sm":  { "$value": "0.875rem",  "$type": "dimension", "$description": "14px — secondary info, captions, code" },
+      "md":  { "$value": "1rem",      "$type": "dimension", "$description": "16px — default body text" },
+      "lg":  { "$value": "1.125rem",  "$type": "dimension", "$description": "18px — long-form reading" },
+      "xl":  { "$value": "1.25rem",   "$type": "dimension", "$description": "20px — h3 headings" },
+      "2xl": { "$value": "1.5rem",    "$type": "dimension", "$description": "24px — h2 headings" },
+      "3xl": { "$value": "2rem",      "$type": "dimension", "$description": "32px — h1 page titles" },
+      "4xl": { "$value": "2.5rem",    "$type": "dimension", "$description": "40px — display lg" },
+      "5xl": { "$value": "3.5rem",    "$type": "dimension", "$description": "56px — display xl" }
+    },
+    "lineHeight": {
+      "tight":   { "$value": 1.1,  "$type": "number", "$description": "Display XL" },
+      "snug":    { "$value": 1.2,  "$type": "number", "$description": "H1" },
+      "normal":  { "$value": 1.4,  "$type": "number", "$description": "H4, labels" },
+      "relaxed": { "$value": 1.5,  "$type": "number", "$description": "Small body" },
+      "loose":   { "$value": 1.6,  "$type": "number", "$description": "Body copy" }
+    },
+    "letterSpacing": {
+      "tighter": { "$value": "-0.02em", "$type": "dimension", "$description": "Display sizes" },
+      "tight":   { "$value": "-0.01em", "$type": "dimension", "$description": "Headings" },
+      "normal":  { "$value": "0",       "$type": "dimension", "$description": "Body text" },
+      "wide":    { "$value": "0.05em",  "$type": "dimension", "$description": "All-caps labels" }
+    }
+  }
+}

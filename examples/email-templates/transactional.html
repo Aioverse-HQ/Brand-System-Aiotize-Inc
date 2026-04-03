@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Confirm your email — Aiotize</title>
+  <style type="text/css">
+    body { margin: 0; padding: 0; background-color: #F5F7FA; }
+    table { border-collapse: collapse; }
+    img { border: 0; display: block; }
+    a { color: #1A6BFF; }
+  </style>
+</head>
+<body>
+  <!-- Wrapper -->
+  <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#F5F7FA">
+    <tr>
+      <td align="center" style="padding: 40px 16px;">
+
+        <!-- Email card -->
+        <table width="600" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF"
+               style="border-radius: 8px; overflow: hidden; max-width: 600px; width: 100%;">
+
+          <!-- Header -->
+          <tr>
+            <td bgcolor="#0D1B2A" align="center" style="padding: 32px 40px;">
+              <span style="font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 700;
+                           color: #FFFFFF; letter-spacing: -0.01em;">Aiotize</span>
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td style="padding: 40px; font-family: Arial, Helvetica, sans-serif; color: #0D1B2A;">
+              <h1 style="font-size: 24px; font-weight: 700; margin: 0 0 16px; line-height: 1.2;">
+                Confirm your email address
+              </h1>
+              <p style="font-size: 16px; line-height: 1.6; margin: 0 0 24px; color: #4A5568;">
+                Thanks for signing up for Aiotize. Please confirm your email address by clicking the button below.
+              </p>
+
+              <!-- CTA button -->
+              <table cellpadding="0" cellspacing="0">
+                <tr>
+                  <td bgcolor="#1A6BFF" style="border-radius: 6px;">
+                    <a href="{{confirmation_url}}"
+                       style="display: inline-block; padding: 14px 28px; font-family: Arial, Helvetica, sans-serif;
+                              font-size: 16px; font-weight: 600; color: #FFFFFF; text-decoration: none;">
+                      Confirm email address
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="font-size: 14px; line-height: 1.5; margin: 24px 0 0; color: #4A5568;">
+                If you didn't create an Aiotize account, you can safely ignore this email.
+                This link expires in 24 hours.
+              </p>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td bgcolor="#F5F7FA" style="padding: 24px 40px; border-top: 1px solid #CBD5E0;">
+              <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #4A5568;
+                         margin: 0; line-height: 1.5;">
+                &copy; 2026 Aiotize Inc &bull;
+                <a href="https://aiotize.com/privacy" style="color: #1A6BFF;">Privacy policy</a> &bull;
+                <a href="{{unsubscribe_url}}" style="color: #1A6BFF;">Unsubscribe</a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+        <!-- / Email card -->
+
+      </td>
+    </tr>
+  </table>
+  <!-- / Wrapper -->
+</body>
+</html>

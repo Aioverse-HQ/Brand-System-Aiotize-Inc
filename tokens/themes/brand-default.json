@@ -1,0 +1,43 @@
+{
+  "$metadata": {
+    "tokenSetOrder": ["global/color", "global/typography", "global/spacing", "themes/brand-default"]
+  },
+  "color": {
+    "background": {
+      "default":  { "$value": "{color.brand.white}",     "$type": "color" },
+      "subtle":   { "$value": "{color.secondary.lightGray}", "$type": "color" },
+      "emphasis": { "$value": "{color.brand.navy}",      "$type": "color" }
+    },
+    "text": {
+      "default":   { "$value": "{color.brand.navy}",       "$type": "color" },
+      "secondary": { "$value": "{color.secondary.slate}",  "$type": "color" },
+      "disabled":  { "$value": "{color.secondary.midGray}", "$type": "color" },
+      "inverse":   { "$value": "{color.brand.white}",      "$type": "color" },
+      "link":      { "$value": "{color.brand.blue}",       "$type": "color" }
+    },
+    "border": {
+      "default":  { "$value": "{color.secondary.midGray}", "$type": "color" },
+      "emphasis": { "$value": "{color.secondary.darkGray}", "$type": "color" },
+      "brand":    { "$value": "{color.brand.blue}",        "$type": "color" }
+    },
+    "action": {
+      "primary": {
+        "background":        { "$value": "{color.brand.blue}",  "$type": "color" },
+        "backgroundHover":   { "$value": "#1558D6",              "$type": "color", "$description": "Darkened brand blue for hover state" },
+        "backgroundPressed": { "$value": "#1045AD",              "$type": "color", "$description": "Darkened brand blue for pressed state" },
+        "text":              { "$value": "{color.brand.white}", "$type": "color" }
+      },
+      "secondary": {
+        "background":        { "$value": "transparent",          "$type": "color" },
+        "backgroundHover":   { "$value": "{color.secondary.lightGray}", "$type": "color" },
+        "text":              { "$value": "{color.brand.blue}",  "$type": "color" },
+        "border":            { "$value": "{color.brand.blue}",  "$type": "color" }
+      },
+      "destructive": {
+        "background":      { "$value": "{color.feedback.error}", "$type": "color" },
+        "backgroundHover": { "$value": "#C53030",                "$type": "color" },
+        "text":            { "$value": "{color.brand.white}",   "$type": "color" }
+      }
+    }
+  }
+}
