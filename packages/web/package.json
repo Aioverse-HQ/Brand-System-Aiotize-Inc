@@ -29,7 +29,7 @@
     "react-dom": { "optional": true }
   },
   "devDependencies": {
-    "@aiotize/brand-tokens": "^1.0.0"
+    "@aiotize/brand-tokens": "file:../../tokens"
   },
   "keywords": [
     "brand",
