@@ -49,7 +49,7 @@ The scale is based on a **4 px base unit** (0.25 rem). Step `4` equals 16 px (1 
 | `borderRadius.lg` | 0.75 rem | 12 px | Cards, modals |
 | `borderRadius.xl` | 1 rem | 16 px | Large cards, feature panels |
 | `borderRadius.2xl` | 1.5 rem | 24 px | Hero sections, oversized cards |
-| `borderRadius.full` | 9999 px | — | Pills, avatars, circular icon buttons |
+| `borderRadius.full` | — | 9999 px | Pills, avatars, circular icon buttons |
 
 ---
 
@@ -78,8 +78,8 @@ All shadow values use the brand navy (`#0D1B2A`) as the shadow colour at reduced
 @import "@aiotize/brand-tokens/css";
 
 .card {
-  padding: var(--aiotize-spacing-6);           /* 24px */
-  border-radius: var(--aiotize-borderRadius-lg); /* 12px */
+  padding: var(--aiotize-spacing-6);             /* 24px */
+  border-radius: var(--aiotize-border-radius-lg); /* 12px */
   box-shadow: var(--aiotize-shadow-md);
 }
 ```
