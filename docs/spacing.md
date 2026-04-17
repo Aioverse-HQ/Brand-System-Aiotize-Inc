@@ -78,8 +78,8 @@ All shadow values use the brand navy (`#0D1B2A`) as the shadow colour at reduced
 @import "@aiotize/brand-tokens/css";
 
 .card {
-  padding: var(--aiotize-spacing-6);           /* 24px */
-  border-radius: var(--aiotize-borderRadius-lg); /* 12px */
+  padding: var(--aiotize-spacing-6);             /* 24px */
+  border-radius: var(--aiotize-border-radius-lg); /* 12px */
   box-shadow: var(--aiotize-shadow-md);
 }
 ```
